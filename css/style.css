@@ -1,0 +1,185 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  background: #fff;
+  color: #424242;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #222; }
+
+.h2-title {
+  line-height: 1.4; }
+
+section {
+  padding: 120px 0 100px; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+#health {
+  padding-bottom: 0; }
+  #health .h2-title {
+    margin-bottom: 20px;
+    font-size: 2.2rem !important; }
+  #health .organic-text {
+    margin-top: 50px; }
+  #health .organic-text-title {
+    color: #4a90e2;
+    font-weight: bold; }
+  #health .organic-text p:nth-child(2) {
+    margin-bottom: 45px; }
+  #health .icons-img,
+  #health .icons-info {
+    padding-right: 0; }
+  #health .icons-info {
+    margin-top: 15px; }
+  #health .img-tulsi {
+    position: relative;
+    left: 160px;
+    bottom: 100px;
+    z-index: -10; }
+  @media screen and (min-width: 768px) {
+    #health .organic-text {
+      padding-left: 50px;
+      margin-top: 0; }
+    #health .organic-leaf {
+      margin-bottom: 50px; }
+    #health .orgainc-text-para {
+      font-size: 1.3rem; } }
+
+#hero-section-2 {
+  background: url(../images/tea-dark-lg.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  max-width: 100%;
+  min-height: 90vh; }
+  #hero-section-2 .hero-title-2 {
+    color: #fff;
+    margin-top: 20px;
+    line-height: 1.5; }
+  #hero-section-2 .hero-text-2 {
+    color: #fff; }
+  @media screen and (min-width: 768px) {
+    #hero-section-2 .hero-title-2 {
+      padding: 0 0 0 80px; }
+    #hero-section-2 .hero-text-2 {
+      padding-left: 80px;
+      margin-top: 30px; } }
+
+#benefits {
+  padding: 0; }
+  #benefits .benefits-first {
+    margin-top: -100px; }
+  #benefits .benefits-herbs {
+    width: 55%; }
+  #benefits .benefits-title {
+    margin: 30px 0 20px; }
+  #benefits .benefits-text {
+    font-size: 1.3rem;
+    margin-bottom: 50px; }
+  #benefits .herbaly-h4 {
+    margin-bottom: 100px; }
+  @media screen and (min-width: 769px) {
+    #benefits .benefits-text {
+      font-size: 1.3rem;
+      padding: 0 30px; } }
+  #benefits .herbaly-h4 {
+    margin-top: 15px;
+    font-size: 1.4rem; }
+
+#products {
+  padding-bottom: 0;
+  padding-top: 80px; }
+  #products .h2-title {
+    margin-bottom: 60px; }
+  #products .icon-title {
+    margin: 15px 0 40px; }
+  @media screen and (min-width: 768px) {
+    #products .product-icons {
+      margin-top: 20px;
+      width: 70%; } }
+
+#display {
+  background: url(../images/arrangement-lg.png) no-repeat;
+  background: url(../images/herbaly-arrangement.png) no-repeat;
+  background: url(../images/hb-arrangement@2xb.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  max-width: 100%;
+  min-height: 100vh; }
+
+#facts {
+  padding-top: 0;
+  margin-bottom: 80px; }
+  @media screen and (min-width: 768px) {
+    #facts {
+      padding-top: 50px; } }
+  #facts .facts-img {
+    margin-top: 40px; }
+
+#hero-section {
+  position: relative;
+  padding-top: 80px;
+  background: url(../images/girl-tea-cup.jpg) no-repeat;
+  background-size: cover;
+  background-position: top left;
+  max-width: 100%;
+  min-height: 100vh;
+  min-height: 300px; }
+  #hero-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, rgba(33, 37, 52, 0.8) 0%, rgba(83, 160, 253, 0.8) 51%, rgba(246, 150, 36, 0.8) 100%);
+    opacity: .8; }
+  #hero-section .timer {
+    width: 40%; }
+  #hero-section .hero-img {
+    margin-bottom: 30px; }
+  #hero-section .hero-text {
+    margin-top: -146px; }
+  #hero-section .hero-title {
+    line-height: 1.3;
+    padding: 30px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    text-align: left; }
+  @media screen and (min-width: 768px) {
+    #hero-section {
+      background-position: top center;
+      min-height: 600px; }
+      #hero-section:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(45deg, rgba(33, 37, 52, 0.01) 0%, rgba(83, 160, 253, 0.01) 51%, rgba(246, 150, 36, 0.01) 100%);
+        opacity: .8; }
+      #hero-section .timer {
+        width: 25%; }
+      #hero-section .hero-text {
+        margin-top: -150px; }
+      #hero-section .hero-title {
+        margin-top: 75px;
+        font-size: 1.5rem; } }
+  @media screen and (min-width: 1024px) {
+    #hero-section .hero-title {
+      padding: 0;
+      font-size: 2rem; } }
